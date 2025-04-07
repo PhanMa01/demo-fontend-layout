@@ -31,24 +31,23 @@ li {
 
 .border-bf-200 {
     --tw-border-opacity: 1;
-    border-color: rgb(253 230 138 / var(--tw-border-opacity, 1));
+    border-color: black;
     background-color: rgb(255 251 235 / var(--tw-bg-opacity, 1));
 }
 
 .border-l-200 {
     --tw-border-opacity: 1;
-    border-color: rgb(249 168 37 / var(--tw-border-opacity, 1));
+    border-color: black;
     background-color: rgb(254 243 199 / var(--tw-bg-opacity, 1));
 }
 
 .border-d-200 {
     --tw-border-opacity: 1;
-    border-color: rgb(156 163 175 / var(--tw-border-opacity, 1));
+    border-color: black;
     background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
 }
 
 .rounded-lg {
-    border-radius: 0.5rem;
     position: relative;
 }
 
@@ -122,11 +121,21 @@ li {
     list-style-position: inside;
 }
 
+@media (max-width: 767px) {
+    .mb-16 {
+        margin-bottom: 1rem;
+    }
+}
+
 @media (min-width: 768px) {
     .container {
         max-width: 768px;
     }
 
+    .mb-16 {
+        margin-bottom: 2rem;
+    }
+    
     .md\:text-4xl {
         font-size: 2.25rem;
         line-height: 2.5rem;
