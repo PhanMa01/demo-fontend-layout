@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+h3 {
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.text-amber-900 {
+    --tw-text-opacity: 1;
+    color: rgb(120 53 15 / var(--tw-text-opacity, 1));
+}
+
+.container {
+    width: 100%;
+}
+
+/* Navbar Styles */
+.navbar {
+    border-radius: 0;
+    border: 0;
+    background-color: #f8f8f8;
+    margin-bottom: 30px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Mobile Menu Styles */
+.navbar-default .navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-nav {
+    margin: 0 -15px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #333;
+    font-size: 18px;
+    padding: 15px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.navbar-default .navbar-nav > li:last-child > a {
+    border-bottom: none;
+}
+
+/* Main Content Section */
+.content-section {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 0; /* Remove the original margin since we're adding it to food-section */
+}
+
+/* Food Section */
+.food-section {
+    margin-bottom: 2rem;
+}
+
+/* Mobile Menu Button (Hamburger Icon) */
+.navbar-toggle {
+    border: none;
+    margin-right: 0;
+}
+
+.navbar-toggle:hover, 
+.navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #333;
+    height: 3px;
+}
+
+/* Back to top link styling */
+.section-end {
+    color: #555;
+}
+
+.back-to-top {
+    font-weight: bold;
+    color: #337ab7;
+    text-decoration: underline;
+}
+
+.back-to-top:hover {
+    color: #23527c;
+}
+
+/* Media Queries */
+@media (max-width: 767px) {
+    /* Mobile view adjustments */
+    .navbar-collapse {
+        background-color: #e7e7e7;
+    }
+}
